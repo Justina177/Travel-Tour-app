@@ -1,0 +1,61 @@
+:root {
+  --PrimaryColor: hsl(243, 100%, 33%);
+  --SecondaryColor: hsla(183, 85%, 43%, 0.79);
+  --GradientColor: linear-gradient(to right, hsl(187, 74%, 38%), hsl(199, 100%, 33%));
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(200, 30%, 4%);
+  --textColor: hsl(201, 4%, 36%);
+  --whiteColorDeam: hsl(0, 0%, 93%);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: rgb(239, 239, 239);
+  --bodyColor: rgb(240, 240, 246);
+  --cardBG: rgb(255, 225, 235);
+}
+
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--whiteColorDeam);
+  width: 100%;
+  padding: 1rem;
+  z-index: 1000;
+}
+
+.logo {
+  color: var(--blackColor);
+}
+
+@media screen and (max-with: 768px) {
+  .navbar {
+    position: absolute;
+    background: var(--whiteColorDeam);
+    max-height: -webkit-max-content;
+    max-height: -moz-max-content;
+    max-height: max-content;
+    width: 80%;
+    border-radius: 1rem;
+    top: 6rem;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 2000;
+    box-shadow: 0 2px 4px rgba(2, 15, 29, 0);
+  }
+}
+.navList {
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  padding: 0.5rem 0;
+}
+
+.navLink {
+  color: var(--textColor);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.navLink :hover {
+  color: var(--PrimaryColor);
+}/*# sourceMappingURL=navbar.css.map */
