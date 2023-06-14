@@ -18,7 +18,7 @@ const Navbar = () => {
         setActive('navBar')
      }
     return (
-        <section className="navBarSection">
+        <section className="navBar Section">
             <header className="header flex">
 
                 <div className="logoDiv">
@@ -34,24 +34,31 @@ const Navbar = () => {
                         <li className="navItem">
                             <a href="/" className="navLink">Home</a>
                         </li>
+
                         <li className="navItem">
                             <a href="/" className="navLink">Packages</a>
                         </li>
+
                         <li className="navItem">
                             <a href="/" className="navLink">Shop</a>
                         </li>
+
                         <li className="navItem">
                             <a href="/" className="navLink">About</a>
                         </li>
+
                         <li className="navItem">
                             <a href="/" className="navLink">pages</a>
                         </li>
+
                         <li className="navItem">
                             <a href="/" className="navLink">News</a>
                         </li>
+
                         <li className="navItem">
                             <a href="/" className="navLink">Contact</a>
                         </li>
+
                         <button className="btn">
                             <a href="/">Book Now</a>
                         </button>

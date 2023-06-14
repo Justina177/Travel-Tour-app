@@ -10,7 +10,7 @@
 :root {
   --PrimaryColor: hsl(199, 100%, 33%);
   --SecondaryColor: hsl(187, 85%, 43%);
-  --GradientColor: linear-gradient(to right, hsl(187, 85%, 43%), 
+  --gradientColor: linear-gradient(to right, hsl(187, 85%, 43%), 
   hsl(199, 100%, 33%));
   --whiteColor: hsl(0, 0%, 100%);
   --blackColor: hsl(201, 33%, 16%);
@@ -30,9 +30,13 @@ li {
   list-style: none;
 }
 
+.section {
+  pad: 4rem 0 2rem;
+}
+
 .container {
   padding-left: 1.5rem;
-  cursor: pointer;
+  padding-right: 1.5rem;
 }
 
 .icon {
@@ -52,7 +56,7 @@ li {
 
 .btn {
   padding: 0.6rem 1.5rem;
-  background: var(--GradientColor);
+  background: var(--gradientColor);
   border-radius: 3rem;
   border: none;
   outline: none;
