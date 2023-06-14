@@ -18,7 +18,7 @@ const Navbar = () => {
         setActive('navBar')
      }
     return (
-        <section className="navBar Section">
+        <section className="navBarSection">
             <header className="header flex">
 
                 <div className="logoDiv">
